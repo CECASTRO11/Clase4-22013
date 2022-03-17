@@ -1,5 +1,10 @@
 export default class Animal {
-    Speak() {
-        console.log(`${this.nombre} make a noise`);
+    constructor(name, age) {
+        this.name = name;
+        this.age = this.age;
+    }
+
+    speak() {
+        return `${this.name} make a noise`;
     }
 }
